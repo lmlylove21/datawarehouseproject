@@ -19,6 +19,7 @@ GO
 
 CREATE TABLE [bronze].[crm_cust_info](
     [cust_id]            [int] NULL,
+    [cst_key]            [varchar](50) NULL,
     [cst_firstname]      [varchar](50) NULL,
     [cst_lastname]       [varchar](50) NULL,
     [cst_marital_status] [varchar](50) NULL,
