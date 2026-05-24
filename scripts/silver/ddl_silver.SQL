@@ -53,7 +53,6 @@ CREATE TABLE [silver].[crm_prd_info](
 GO
 
 
-
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[silver].[crm_sales_details]') AND type in (N'U'))
 DROP TABLE [silver].[crm_sales_details]
 GO
