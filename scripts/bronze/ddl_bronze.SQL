@@ -36,16 +36,16 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-
 CREATE TABLE [bronze].[crm_prd_info](
-    [prd_id]       [int] NULL,
-    [prd_key]      [varchar](50) NULL,
-    [prd_nm]       [varchar](50) NULL,
-    [prd_cost]     [int] NULL,
-    [prd_line]     [varchar](50) NULL,
-    [prd_start_dt] [varchar](50) NULL,
-    [prd_end_dt]   [varchar](50) NULL
-) ON [PRIMARY];
+	[prd_id] [int] NULL,
+	[prd_key] [varchar](50) NULL,
+	[prd_nm] [varchar](50) NULL,
+	[prd_cost] [int] NULL,
+	[prd_line] [varchar](50) NULL,
+	[prd_start_dt] [datetime] NULL,
+	[prd_end_dt] [datetime] NULL
+) ON [PRIMARY]
+GO
 GO
 -----------------------
 IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[bronze].[crm_sales_details]') AND type in (N'U'))
