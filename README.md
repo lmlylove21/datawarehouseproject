@@ -35,14 +35,14 @@ Data Analytics
 Everything is for Free!
 
 ----------------------------------
-# Important Links & Tools:
-Datasets: Access to the project dataset (csv files).
-SQL Server Express: Lightweight server for hosting your SQL database.
-SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
-Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-DrawIO: Design data architecture, models, flows, and diagrams.
-Notion: Get the Project Template from Notion
-[Notion steps](https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa800aa8f2d8742ffc4e95?source=copy_link) Access to All Project Phases and Tasks.
+### 🛠️ Important Links & Tools:
+
+* [Datasets](https://github.com/DataWithBaraa/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (csv files).
+  **Docker:** Container tool used to run the Microsoft SQL Server database engine on macOS.
+  **Visual Studio Code:** The primary IDE used for writing SQL scripts and managing the repository.
+  **SQL Server (mssql) Extension:** Extension used inside VS Code to connect to the Docker container and execute T-SQL queries.
+  **DrawIO:** Tool used to design data architecture maps, flowcharts, and relational models.
+**[Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa880aa8f2d8742ffc4e95?source=copy_link):** Access to all project phases and tasks tracker.
 
 ## Project Requirements 
 
