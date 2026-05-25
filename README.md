@@ -3,9 +3,43 @@
 Welcome to the **Data Warehouse and Analytics Project** repository!
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project highlights industry best practices in data engineering and analytics.
 
-----------------------------
+-------------------------------
 ## Data Architecture
 <img width="811" height="691" alt="image" src="https://github.com/user-attachments/assets/a4f912cc-3853-43cd-b337-5eb033726410" />
+
+1.**Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2.**Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3.**Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+------------------------------
+# Project Overview 
+This project involves:
+
+1.**Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+2.**ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
+3.**Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+4.**Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
+SQL Development
+Data Architect
+Data Engineering
+ETL Pipeline Developer
+Data Modeling
+Data Analytics
+🛠️ Important Links & Tools:
+Everything is for Free!
+
+----------------------------------
+# Important Links & Tools:
+Datasets: Access to the project dataset (csv files).
+SQL Server Express: Lightweight server for hosting your SQL database.
+SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
+Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+DrawIO: Design data architecture, models, flows, and diagrams.
+Notion: Get the Project Template from Notion
+https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa800aa8f2d8742ffc4e95?source=copy_link: Access to All Project Phases and Tasks.
 
 ## Project Requirements 
 
