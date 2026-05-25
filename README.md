@@ -42,7 +42,7 @@ SQL Server Management Studio (SSMS): GUI for managing and interacting with datab
 Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 DrawIO: Design data architecture, models, flows, and diagrams.
 Notion: Get the Project Template from Notion
-https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa800aa8f2d8742ffc4e95?source=copy_link: Access to All Project Phases and Tasks.
+[Notion steps](https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa800aa8f2d8742ffc4e95?source=copy_link) Access to All Project Phases and Tasks.
 
 ## Project Requirements 
 
