@@ -9,40 +9,40 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## Data Architecture
 <img width="811" height="691" alt="image" src="https://github.com/user-attachments/assets/a4f912cc-3853-43cd-b337-5eb033726410" />
 
-1.**Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-
-2.**Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.     
-3.**Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
+ 1.**Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+ 
+ 2.**Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.     
+ 3.**Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ----
 # Project Overview 
 This project involves:
 
-1.**Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers. 
-2.**ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.   
-3.**Data Modeling:** Developing fact and dimension tables optimized for analytical queries.   
-4.**Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.    
+ 1.**Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers. 
+ 2.**ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.   
+ 3.**Data Modeling:** Developing fact and dimension tables optimized for analytical queries.   
+ 4.**Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.    
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
-SQL Development
-Data Architect
-Data Engineering
-ETL Pipeline Developer
-Data Modeling
-Data Analytics
-🛠️ Important Links & Tools:
-Everything is for Free!
+    SQL Development
+    Data Architect
+    Data Engineering
+    ETL Pipeline Developer
+    Data Modeling
+    Data Analytics
+    🛠️ Important Links & Tools:
+    Everything is for Free!
 
 ----
 ### 🛠️ Important Links & Tools:
 
-* [Datasets](https://github.com/DataWithBaraa/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (csv files).
-  **Docker:** Container tool used to run the Microsoft SQL Server database engine on macOS.               
-  **Visual Studio Code:** The primary IDE used for writing SQL scripts and managing the repository.                      
-  **SQL Server (mssql) Extension:** Extension used inside VS Code to connect to the Docker container and execute T-SQL queries.           
-  **DrawIO:** Tool used to design data architecture maps, flowcharts, and relational models.        
-**[Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa880aa8f2d8742ffc4e95?source=copy_link):** Access to all project phases and tasks tracker.          
+ **[Datasets](https://github.com/DataWithBaraa/sql-data-warehouse-project/tree/main/datasets):** Access to the project dataset (csv files).                 
+ **Docker:** Container tool used to run the Microsoft SQL Server database engine on macOS.               
+ **Visual Studio Code:** The primary IDE used for writing SQL scripts and managing the repository.                      
+ **SQL Server (mssql) Extension:** Extension used inside VS Code to connect to the Docker container and execute T-SQL queries.           
+ **DrawIO:** Tool used to design data architecture maps, flowcharts, and relational models.        
+ **[Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa880aa8f2d8742ffc4e95?source=copy_link):** Access to all project phases and tasks tracker.          
 
 ---
 ## Project Requirements 
