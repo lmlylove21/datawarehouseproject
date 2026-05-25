@@ -14,6 +14,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 3.**Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 
+
 ------------------------------
 # Project Overview 
 This project involves:
