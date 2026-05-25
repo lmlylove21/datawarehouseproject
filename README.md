@@ -1,6 +1,6 @@
-# Data Warehouse & Analytics Project 
+## Data Warehouse & Analytics Project 
 
-Welcome to the **Data Warehouse and Analytics Project** repository!
+Welcome to the **Data Warehouse and Analytics Project** repository!🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project highlights industry best practices in data engineering and analytics.
 
 -----
@@ -45,7 +45,7 @@ This project involves:
  **[Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-35f3c479a2aa880aa8f2d8742ffc4e95?source=copy_link):** Access to all project phases and tasks tracker.          
 
 ---
-## Project Requirements 
+## Project Requirements🚀
 
 
 ### Building the Data Warehouse (Data Engineering)
@@ -97,9 +97,12 @@ data-warehouse-project/
 
 
 
-## License
-This project is licensed under the [MIT License) (LICENSE). You are free to use, modify, and share this project with proper attribution.
+---
 
-## About Me
-Hi there! I'm **Somya Pal**, a BCom graduate building hands-on projects in SQL, data warehousing, and analytics to strengthen my skills in working with real-world data
+## 📜 License
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
+---
+
+## 👤 About Me
+Hi there! I'm *Somya Pal*, a BCom graduate building hands-on projects in SQL, data warehousing, and analytics to strengthen my skills in working with real-world data.
