@@ -5,8 +5,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ----------------------------
 ## Data Architecture
-
-
+<img width="811" height="691" alt="image" src="https://github.com/user-attachments/assets/a4f912cc-3853-43cd-b337-5eb033726410" />
 
 ## Project Requirements 
 
