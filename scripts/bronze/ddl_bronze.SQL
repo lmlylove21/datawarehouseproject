@@ -1,4 +1,4 @@
-/*
+*/
 =========================================================================================
 DDL Script: Create Bronze Tables
 =========================================================================================
@@ -7,7 +7,6 @@ Script Purpose:
     Run this script to  redfine the DDl Structure of 'bronze' tables
 =========================================================================================
 /*
------------------------/
  
 
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[bronze].[crm_cust_info]') AND type in (N'U'))
