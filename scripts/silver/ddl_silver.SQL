@@ -7,12 +7,11 @@ Script Purpose:
     Run this script to  redfine the DDl Structure of 'bronze' tables
 =========================================================================================
 /*
------------------------/
+
 
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[silver].[crm_cust_info]') AND type in (N'U'))
 DROP TABLE [silver].[crm_cust_info]
 GO
-
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -56,7 +55,6 @@ GO
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[silver].[crm_sales_details]') AND type in (N'U'))
 DROP TABLE [silver].[crm_sales_details]
 GO
-
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -78,12 +76,9 @@ ALTER TABLE [silver].[crm_sales_details] ADD  DEFAULT (getdate()) FOR [dwh_creat
 GO
 
 
-
-
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[silver].[erp_CUST_AZ12]') AND type in (N'U'))
 DROP TABLE [silver].[erp_CUST_AZ12]
 GO
-
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -97,7 +92,6 @@ CREATE TABLE [silver].[erp_CUST_AZ12](
 GO
 ALTER TABLE [silver].[erp_CUST_AZ12] ADD  DEFAULT (getdate()) FOR [dwh_create_date]
 GO
-
 
 
 
@@ -118,13 +112,9 @@ ALTER TABLE [silver].[erp_LOC_A101] ADD  DEFAULT (getdate()) FOR [dwh_create_dat
 GO
 
 
-
-
-
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[silver].[erp_PX_CAT_G1V2]') AND type in (N'U'))
 DROP TABLE [silver].[erp_PX_CAT_G1V2]
 GO
-
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
