@@ -43,7 +43,7 @@ on c1.cst_key=cu.CID
 GO
 ---------------------------
 
-DROP VIEW [gold].[dim_customers]
+DROP VIEW [gold].[dim_products]
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -66,7 +66,7 @@ on pn.cat_id=px.id
 where pn.prd_end_dt is null --filter out historical data 
 GO
 --------------------------------
-DROP VIEW [gold].[dim_customers]
+DROP VIEW [gold].[fact_sales]
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
