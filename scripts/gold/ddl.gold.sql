@@ -34,7 +34,7 @@ else coalesce(cu.gen,'n/a')
 end as gender,
 c1.cst_create_date as create_date,
 l1.cntry as country,
-cu.BDATE as birth_date
+try_cast(cu.BDATE as date) as birth_date
 from silver.crm_cust_info as c1
 left join silver.erp_LOC_A101 as l1
 on C1.cst_key=l1.CID
