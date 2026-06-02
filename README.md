@@ -97,12 +97,14 @@ data-warehouse-project/
 
 
 
----
+
 
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
----
 
 ## 👤 About Me
-Hi there! I'm *Somya Pal*, a BCom graduate building hands-on projects in SQL, data warehousing, and analytics to strengthen my skills in working with real-world data.
+Hi there! I'm Somya Pal, a BCom graduate building hands-on projects in SQL, data warehousing, Excel, and Tableau to strengthen my skills in data analytics and business intelligence. I enjoy working with real-world datasets, creating dashboards, and transforming raw data into meaningful business insights through analytical and visualization projects.
+
+## Note
+This project was built by following and learning from the Data With Baraa SQL Data Warehouse tutorial series, with additional hands-on implementation, customization, and independent practice done to strengthen understanding of ETL pipelines, dimensional modeling, medallion architecture, and SQL-based analytics workflows.
