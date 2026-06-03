@@ -1,3 +1,4 @@
+````markdown
 ```sql
 /*
 ===============================================================================
@@ -44,36 +45,7 @@ CREATE TABLE [bronze].[crm_cust_info] (
     [cst_create_date]      DATETIME        NULL
 ) ON [PRIMARY];
 GO
+```
+````
 
-
-/*=============================================================================
-  CRM PRODUCT INFORMATION
-=============================================================================*/
-
-IF EXISTS (
-    SELECT *
-    FROM sys.objects
-    WHERE object_id = OBJECT_ID(N'[bronze].[crm_prd_info]')
-    AND type IN (N'U')
-)
-DROP TABLE [bronze].[crm_prd_info];
-GO
-
-SET ANSI_NULLS ON;
-GO
-
-SET QUOTED_IDENTIFIER ON;
-GO
-
-CREATE TABLE [bronze].[crm_prd_info] (
-    [prd_id]           INT             NULL,
-    [prd_key]          VARCHAR(50)     NULL,
-    [prd_nm]           VARCHAR(50)     NULL,
-    [prd_cost]         INT             NULL,
-    [prd_line]         VARCHAR(50)     NULL,
-    [prd_start_dt]     DATETIME        NULL,
-    [prd_end_dt]       DATETIME        NULL
-) ON [PRIMARY];
-GO
-```sql
 
