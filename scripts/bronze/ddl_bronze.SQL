@@ -75,5 +75,5 @@ CREATE TABLE [bronze].[crm_prd_info] (
     [prd_end_dt]       DATETIME        NULL
 ) ON [PRIMARY];
 GO
-```
+```sql
 
